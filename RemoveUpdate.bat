@@ -6,7 +6,7 @@ timeout /t 3 /nobreak > nul
 cls
 
 set Update=
-set /p UpdateRemover=Ae you sure to remove update?: 
+set /p UpdateRemover=Are you sure to remove update?: 
 set "RemoveUpdate=%RemoveUpdate%:"
 
                             echo Update not removed!
