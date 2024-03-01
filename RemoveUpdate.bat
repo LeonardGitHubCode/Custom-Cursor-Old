@@ -9,9 +9,9 @@ cls
 set Update=
 set /p UpdateRemover=Ae you sure to remove update?: 
 set "RemoveUpdate=%RemoveUpdate%:"
-echo.
-echo.
-echo.
-echo.
+cls
 echo Update removed!
-timeout /t 3 /nobreak > nul
+timeout /t 1 /nobreak > nul
+                            
+                            echo Update not removed!
+                                                      timeout /t 1 /nobreak > nul
