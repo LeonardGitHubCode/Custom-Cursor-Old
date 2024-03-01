@@ -9,14 +9,7 @@ set Update=removal
 set /p UpdateRemover=Are you sure to remove update?: 
 set "RemoveUpdate=%RemoveUpdate%:"
 
-                         echo.
-                                                      timeout /t 1 /nobreak > nul
-                         echo.
-                                                      timeout /t 1 /nobreak > nul
-                         echo.
-                                                      timeout /t 1 /nobreak > nul
-                         echo.
-                                                      timeout /t 1 /nobreak > nul
+
 
 cls
 echo Removal complete!
